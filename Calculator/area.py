@@ -22,6 +22,9 @@
 # SOFTWARE.
 #
 
-radius = input('enter radius of the circle: ')
-area = (float(radius) * float(radius)) * 3.14
-print(area)
+radius = float(input('enter radius of the circle: '))
+if radius > 0:
+    area = (radius * radius) * 3.14
+    print('Result: ' + str(area))
+else:
+    print('Error: Invalid input')
