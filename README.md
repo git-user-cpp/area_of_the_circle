@@ -1,4 +1,5 @@
 # area_of_the_circle
+Simple circle area calculator 
 
 ## ⚠️ LICENSE ⚠️
 
